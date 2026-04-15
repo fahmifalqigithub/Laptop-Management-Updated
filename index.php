@@ -36,6 +36,11 @@
         <?php endif; ?>
 
         <div class="action-buttons">
+            <a href="reset_today.php" 
+               class="btn btn-outline-danger"
+               onclick="return confirm('Yakin ingin reset data hari ini?')">
+                <i class="fas fa-calendar-day"></i> Reset Hari Ini
+            </a>
             <a href="?action=ambil" class="btn btn-outline-warning <?php echo (!isset($_GET['action']) || $_GET['action'] == 'ambil') ? 'active' : ''; ?>">
                 <i class="fas fa-laptop"></i> Mode Pengambilan
             </a>

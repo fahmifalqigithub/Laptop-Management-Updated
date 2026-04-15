@@ -1,5 +1,7 @@
 <?php
+date_default_timezone_set('Asia/Jakarta');
 require_once 'config.php';
+require_once 'auto_reset.php';
 
 $barcode = trim($_POST['barcode'] ?? '');
 $action = $_POST['action'] ?? 'ambil';

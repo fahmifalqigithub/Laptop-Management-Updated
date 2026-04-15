@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set('Asia/Jakarta');
 $db_host = "localhost";    
 $db_name = "db_laptopmanagement"; 
 $db_user = "root";          
